@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+}
+.bloc_de_page
+{
+    font-family: 'Raleway', sans-serif;    
+    top: 5%;
+    width: 90%;    
+    margin-left:auto;
+    margin-right:auto;
+}
+img{
+   width: 20%;
+   
+}
+h2{
+    font-size: 1em;
+}
+h3
+{
+    font-size:0.8em;
+    font-weight: normal;
+}
+#rechercher{
+    background-color: #0065FC;
+    height: 30px;
+    width: 10%;
+    font-size: 0.7em;
+    color: white;
+    border: none;
+    border-radius:0px 10px 10px 0px;
+     
+}
+#ville{
+    height:28px ;
+    width: 10%;
+    font-size: 0.7em;
+    font-style: bold;    
+    border: none;
+    
+    
+}
+#icon{    
+    background-color:#F2F2F2 ;
+    height: 30px;
+    width:2%;
+    padding-left: 10px;    
+    border-radius:10px 0px 0px 10px;
+    display: flex;
+    align-items:center ;
+}
+
+.champ_recherche{
+    display: flex;   
+
+}
+
+ul{
+  display: flex;  
+}
+
+ul.liens_entete{
+    position: absolute;   
+    left: 70%;
+    top: 40px;
+    justify-content: flex-end;
+}
+
+li{
+    list-style: none;
+    
+}
+
+ul.liens_entete > li {
+    margin-right: 15%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul.liens_entete > li > a:hover {
+    color:#0065FC;
+    border-top-style:solid;
+    border-width: 2px;
+    padding-top: 30px;
+}
+
+ul.liens_filtres > li{ 
+    font-size: 0.7em;
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border: solid #F2F2F2;
+    border-left-style: none;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    margin-right: 15px; 
+    margin-left:0px ;   
+}
+
+ul.liens_filtres > li:first-child{
+    border: none;
+} 
+
+ul.liens_filtres > li > i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+ul.liens_filtres > li > a {
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+ul.liens_filtres > li > a:hover {
+    color:midnightblue;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
